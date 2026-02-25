@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "AdMobAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/admob-adapter/5.5.0/ISAdMobAdapter5.5.0.zip",
-      checksum: "1b77907a817c7717490b52815739d9eb7c4620fa7a29cf52fd923be3bc3285bd"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/admob-adapter/5.6.0/ISAdMobAdapter5.6.0.zip",
+      checksum: "5e06d9bb6e0ffc61e61b76fb4bc4b4c1b40eaae2a4c3c29be3a4533a2fcd4fc5"
     )
   ]
 )
