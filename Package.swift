@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "AdMobAdapter", targets: ["AdMobAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", exact: "12.14.0"),
+    .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", exact: "13.2.0"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "AdMobAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/admob-adapter/5.6.0/ISAdMobAdapter5.6.0.zip",
-      checksum: "5e06d9bb6e0ffc61e61b76fb4bc4b4c1b40eaae2a4c3c29be3a4533a2fcd4fc5"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/admob-adapter/5.7.0/ISAdMobAdapter5.7.0.zip",
+      checksum: "0ef4eab4871c510d1b92c4c42534dcc6e95c33a1c0885b3bfcbbbf3edb938c04"
     )
   ]
 )
