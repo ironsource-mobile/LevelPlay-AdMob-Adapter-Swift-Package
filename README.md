@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- Google Mobile Ads SDK v12.14.0
+- Google Mobile Ads SDK
 
 ## Documentation
 
