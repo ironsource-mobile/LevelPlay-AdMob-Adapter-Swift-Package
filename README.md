@@ -4,7 +4,7 @@ This Swift Package provides the LevelPlay AdMob adapter for iOS.
 
 ## Requirements
 
-- iOS 13.0+
+- iOS 12.0+
 - Swift 5.0+
 - Xcode 15.0+
 
