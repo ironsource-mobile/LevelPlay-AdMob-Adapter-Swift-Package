@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "LevelPlay-AdMob-Adapter-Swift-Package",
-  platforms: [.iOS(.v12)],
+  platforms: [.iOS(.v13)],
   products: [
     .library(name: "AdMobAdapter", targets: ["AdMobAdapter"]),
   ],
