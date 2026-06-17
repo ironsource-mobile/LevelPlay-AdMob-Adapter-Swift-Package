@@ -9,7 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", exact: "13.5.0"),
-    .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
+    .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
     .target(
@@ -17,7 +17,7 @@ let package = Package(
       dependencies: [
         "AdMobAdapterSDK",
         .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
-        .product(name: "UnityMediationSDK", package: "Unity-Mediation-iAds-Swift-Package"),
+        .product(name: "UnityMediationSDK", package: "LevelPlay-Swift-Package"),
       ]
     ),
     .binaryTarget(
