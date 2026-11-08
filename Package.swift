@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "AdMobAdapter", targets: ["AdMobAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", exact: "13.11.0"),
+    .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads", exact: "13.12.0"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "AdMobAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/admob-adapter/5.18.0/ISAdMobAdapter5.18.0.zip",
-      checksum: "87d98e94ae150ea68d9d254cc7b5827b6b88287222f3496b15dd2ba31afacf1f"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/admob-adapter/5.19.0/ISAdMobAdapter5.19.0.zip",
+      checksum: "d1bc7070d71a77c2f7752fb690fd1b10582a3359ca318ff2ae7d227071b15632"
     )
   ]
 )
